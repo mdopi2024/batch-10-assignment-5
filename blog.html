@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog part</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav  class=" py-4 bg-[#F9F7F3] flex justify-between items-center px-4 md:px-10 lg:px-10 ">
+            <a href="index.html"><button class="bg-[#B4F461] px-5 py-2 font-bold rounded-md">Home</button></a>
+   
+            <div class="flex items-center gap-3">
+               <img class="w-12 " src="./assets/logo.png" alt="">
+               <h2>Donate Bangladesh</h2>
+              </div>
+   
+           <div  class="flex items-center">
+               <img src="./assets/coin.png" alt="">
+               <span id="nav-totoal-bdt" class="text-[#111111B3]">5500 BDT</span>
+             </div>
+           </nav>
+    </header>
+     <section>
+        <h1 class="text-4xl">Important FAQ</h1>
+        <div class="collapse collapse-plus bg-base-200 my-6">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model(DOM)?</div>
+            <div class="collapse-content">
+              <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a web page as a tree of objects, allowing programming languages like JavaScript to access and manipulate HTML and CSS. The DOM treats an HTML or XML document as a hierarchy of nodes (such as elements, attributes, and text), enabling dynamic interaction with the content.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200 my-6">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from DOM</div>
+            <div class="collapse-content">
+              <p>The Document Object Model (DOM) is a programming interface that represents the structure of a web page as a tree of objects. It allows developers to interact with HTML and XML documents by accessing and modifying elements, attributes, and content using JavaScript. In the DOM, each part of the document (such as elements, text, or attributes) is treated as a node, and developers can manipulate these nodes to change the page's appearance and behavior dynamically.
+
+                In short, the DOM connects web pages to programming languages like JavaScript, enabling dynamic updates to the content and structure of web pages.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200 my-6">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the content of DOM, and why is it used</div>
+            <div class="collapse-content">
+              <p>Event delegation is a technique in JavaScript where a single event listener is attached to a parent element, allowing it to handle events triggered by its child elements. Instead of attaching event listeners to each child element individually, you delegate the responsibility to a common ancestor (usually a parent or container element).
+
+                This is made possible by event bubbling, which is the process where an event triggered on a child element first executes its own event listener and then propagates up to its parent elements in the DOM tree, eventually reaching the document's root unless stopped.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200 my-6">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an elements atributes and styles using the DOM</div>
+            <div class="collapse-content">
+              <p>In JavaScript, DOM manipulation allows us to interact with and modify HTML elements dynamically. By directly accessing elements, attributes, and styles via the Document Object Model (DOM), we can enhance user interaction, change page content, and update styles in real-time. Below, we'll explore these concepts in greater depth, covering how to manipulate attributes, styles, and CSS classes.</p>
+            </div>
+          </div>
+
+</body>
+</html>
