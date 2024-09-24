@@ -84,6 +84,8 @@ document.getElementById('donate-now-button-movment').addEventListener('click',fu
 const history = document.getElementById('history-section')
 history.appendChild(div) 
 
+  
+
   }
   else{
     alert("Please Enter  Valid Number")

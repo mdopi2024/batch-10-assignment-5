@@ -23,4 +23,3 @@ function donationHistory (id){
 }
 
 // remove style 
-
