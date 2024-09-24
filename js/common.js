@@ -21,3 +21,6 @@ function donationHistory (id){
 
     document.getElementById(id).classList.remove('hidden')
 }
+
+// remove style 
+

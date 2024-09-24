@@ -88,8 +88,16 @@ history.appendChild(div)
 
 // swich donate and history button
 document.getElementById('click-donate').addEventListener('click',function(){
-donationHistory('donation-section')
+donationHistory('donation-section');
+document.getElementById('click-donate').classList.add('bg-lime-400')
+document.getElementById('click-history').classList.remove('bg-lime-400')
+
+
 })
 document.getElementById('click-history').addEventListener('click',function(){
-donationHistory('history-section')
+donationHistory('history-section');
+
+document.getElementById('click-history').classList.add('bg-lime-400');
+document.getElementById('click-donate').classList.remove('bg-lime-400');
+document.getElementById('click-donate').classList.add('bg-gray-300');
 })
