@@ -19,6 +19,8 @@ document.getElementById('donate-now-button').addEventListener('click',function()
     `
  const history = document.getElementById('history-section')
  history.appendChild(div) 
+alert('successfull')
+
   }
   else{
     alert("Please Enter  Valid Number")
@@ -48,6 +50,7 @@ document.getElementById('donate-now-button-feni').addEventListener('click',funct
    `
 const history = document.getElementById('history-section')
 history.appendChild(div)
+alert('successfull')
   }
   else{
     alert("Please Enter  Valid Number")
@@ -77,6 +80,7 @@ document.getElementById('donate-now-button-movment').addEventListener('click',fu
    `
 const history = document.getElementById('history-section')
 history.appendChild(div) 
+alert('successfull')
   }
   else{
     alert("Please Enter  Valid Number")
