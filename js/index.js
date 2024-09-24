@@ -19,11 +19,14 @@ document.getElementById('donate-now-button').addEventListener('click',function()
     `
  const history = document.getElementById('history-section')
  history.appendChild(div) 
-alert('successfull')
+
+
 
   }
   else{
-    alert("Please Enter  Valid Number")
+   const reutn = alert("Please Enter  Valid Number")
+   return reutn;
+    
   }  
   
 })
@@ -50,7 +53,7 @@ document.getElementById('donate-now-button-feni').addEventListener('click',funct
    `
 const history = document.getElementById('history-section')
 history.appendChild(div)
-alert('successfull')
+
   }
   else{
     alert("Please Enter  Valid Number")
@@ -65,7 +68,7 @@ document.getElementById('donate-now-button-movment').addEventListener('click',fu
   const inputValue= convertNumber('input-movment')
   const navBdt = convertNumber2('nav-totoal-bdt')
   const movmentBdt = convertNumber2('movment-bdt')
-  if(typeof numberValue === 'number' || inputValue >= 0){
+  if(!isNaN(inputValue) || inputValue >= 0){
     const movementTotal = inputValue + movmentBdt
     document.getElementById('movment-bdt').innerText = movementTotal;
     const navTotal = navBdt - inputValue;
@@ -80,7 +83,7 @@ document.getElementById('donate-now-button-movment').addEventListener('click',fu
    `
 const history = document.getElementById('history-section')
 history.appendChild(div) 
-alert('successfull')
+
   }
   else{
     alert("Please Enter  Valid Number")
@@ -104,4 +107,12 @@ donationHistory('history-section');
 document.getElementById('click-history').classList.add('bg-lime-400');
 document.getElementById('click-donate').classList.remove('bg-lime-400');
 document.getElementById('click-donate').classList.add('bg-gray-300');
+})
+
+
+// form
+document.getElementById('form').addEventListener('submit',function(event){
+  event.preventDefault();
+  const model5=document.getElementById('my_modal_5');
+  model5.close()
 })
